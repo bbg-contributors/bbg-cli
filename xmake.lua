@@ -1,0 +1,5 @@
+target("bbg-cli")
+	set_kind("binary")
+	add_files("main.go")
+	add_files("cmd/*.go")
+	set_targetdir("bin/")

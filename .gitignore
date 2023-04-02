@@ -3,3 +3,4 @@ bin/
 .xmake/
 build/
 bbg-cli
+Makefile

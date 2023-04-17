@@ -38,7 +38,8 @@ We will then take care of the issue as soon as possible.
 
 ## I Want To Contribute
 
-> ### Legal Notice > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
+> ### Legal Notice
+> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
 ### Reporting Bugs
 
@@ -71,8 +72,8 @@ We use GitHub issues to track bugs and errors. If you run into an issue with the
 Once it's filed:
 
 - The project team will label the issue accordingly.
-- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `status: need reproduce`. Bugs with the `status: need reproduce` tag will not be addressed until they are reproduced.
+- If the team is able to reproduce the issue, it will be marked `status: WIP` or `status: in schedule`, as well as possibly other tags (such as `priority: high`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
 
 ### Suggesting Enhancements
 
@@ -98,7 +99,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/bbg-co
 
 You can follow [this guide](https://github.com/firstcontributions/first-contributions).
 
-Before you submit the PR, **make sure all the lints pass**.
+Before you submit the PR, **make sure all the lints have passed**.
 
 ## Styleguides
 

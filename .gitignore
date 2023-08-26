@@ -4,3 +4,4 @@ bin/
 build/
 bbg-cli
 Makefile
+.idea
